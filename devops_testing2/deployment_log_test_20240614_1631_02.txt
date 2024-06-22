@@ -1,0 +1,13 @@
+[2024-06-14 16:31:04] Deployment started at 20240614_1631_02
+
+[2024-06-14 16:31:04] Folder 'warehouses' does not exist. Skipping...
+[2024-06-14 16:31:04] Deploying_File_Name  "user_SEJAL.sql"
+[2024-06-14 16:31:09] 002002 (42710): SQL compilation error:
+[2024-06-14 16:31:09] Object 'SEJAL' already exists.
+Deployment failed.
+
+Deployment not successful.
+
+Initiating rollback...
+
+[2024-06-14 16:31:09] Rollback completed.

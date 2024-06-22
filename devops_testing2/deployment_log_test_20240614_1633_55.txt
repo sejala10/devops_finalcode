@@ -1,0 +1,109 @@
+[2024-06-14 16:33:57] Deployment started at 20240614_1633_55
+
+[2024-06-14 16:33:57] Folder 'warehouses' does not exist. Skipping...
+[2024-06-14 16:33:57] Deploying_File_Name  "user_SEJAL.sql"
+[2024-06-14 16:34:02] User SEJAL successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:02] Deploying_File_Name  "role_ADMIN.sql"
+[2024-06-14 16:34:07] Role ADMIN successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:07] Deploying_File_Name  "role_BUDGET_ADMIN.sql"
+[2024-06-14 16:34:12] Role BUDGET_ADMIN successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:12] Deploying_File_Name  "role_BUDGET_VIEWER.sql"
+[2024-06-14 16:34:16] Role BUDGET_VIEWER successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:16] Deploying_File_Name  "role_CHEETAH.sql"
+[2024-06-14 16:34:20] Role CHEETAH successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:20] Deploying_File_Name  "role_COST_INSIGHTS_USER.sql"
+[2024-06-14 16:34:25] Role COST_INSIGHTS_USER successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:25] Deploying_File_Name  "role_DATA_QUALITY_MONITORING_ADMIN.sql"
+[2024-06-14 16:34:29] Role DATA_QUALITY_MONITORING_ADMIN successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:29] Deploying_File_Name  "role_DATA_QUALITY_MONITORING_VIEWER.sql"
+[2024-06-14 16:34:32] Role DATA_QUALITY_MONITORING_VIEWER successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:32] Deploying_File_Name  "role_EVENTS_ADMIN.sql"
+[2024-06-14 16:34:37] Role EVENTS_ADMIN successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:37] Deploying_File_Name  "role_EVENTS_VIEWER.sql"
+[2024-06-14 16:34:40] Role EVENTS_VIEWER successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:40] Deploying_File_Name  "role_TRUST_CENTER_ADMIN.sql"
+[2024-06-14 16:34:44] Role TRUST_CENTER_ADMIN successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:44] Deploying_File_Name  "role_TRUST_CENTER_VIEWER.sql"
+[2024-06-14 16:34:49] Role TRUST_CENTER_VIEWER successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:49] Deploying_File_Name  "role_USER.sql"
+[2024-06-14 16:34:53] Role USER successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:53] Deploying_File_Name  "role_VIEWER.sql"
+[2024-06-14 16:34:57] Role VIEWER successfully created.
+Deployment completed.
+
+[2024-06-14 16:34:57] Deploying_File_Name  "database_DEVOPS_PROJECT_TEST.sql"
+[2024-06-14 16:35:01] Database DEVOPS_PROJECT_TEST successfully created.
+Deployment completed.
+
+[2024-06-14 16:35:01] Deploying_File_Name  "schema_DEVOPS_PROJECT_SCHEMA.sql"
+[2024-06-14 16:35:06] Schema DEVOPS_PROJECT_SCHEMA successfully created.
+Deployment completed.
+
+[2024-06-14 16:35:06] Deploying_File_Name  "File format_DEVOPS_FF.sql"
+[2024-06-14 16:35:10] File format DEVOPS_FF successfully created.
+Deployment completed.
+
+[2024-06-14 16:35:10] Folder 'stages' does not exist. Skipping...
+[2024-06-14 16:35:10] Deploying_File_Name  "table_APPROVER_MAIL_METADATA.sql"
+[2024-06-14 16:35:15] Table APPROVER_MAIL_METADATA successfully created.
+Deployment completed.
+
+[2024-06-14 16:35:15] Deploying_File_Name  "table_DEVOPS_TABLE.sql"
+[2024-06-14 16:35:20] Table DEVOPS_TABLE successfully created.
+Deployment completed.
+
+[2024-06-14 16:35:20] Deploying_File_Name  "table_SEQUENCE_TEST_TABLE.sql"
+[2024-06-14 16:35:24] Table SEQUENCE_TEST_TABLE successfully created.
+Deployment completed.
+
+[2024-06-14 16:35:24] Deploying_File_Name  "view_DEVOPS_VIEW.sql"
+[2024-06-14 16:35:29] View DEVOPS_VIEW successfully created.
+Deployment completed.
+
+[2024-06-14 16:35:29] Deploying_File_Name  "procedure_SP_PI.sql"
+[2024-06-14 16:35:33] Function SP_PI successfully created.
+Deployment completed.
+
+[2024-06-14 16:35:33] Deploying_File_Name  "udf_DEVOPS_UDF.sql"
+[2024-06-14 16:36:00] Function DEVOPS_UDF successfully created.
+Deployment completed.
+
+[2024-06-14 16:36:00] Deploying_File_Name  "sequence_SEQ_01.sql"
+[2024-06-14 16:36:04] Sequence SEQ_01 successfully created.
+Deployment completed.
+
+[2024-06-14 16:36:04] Deploying_File_Name  "stream_DEVOPS_STREAM.sql"
+[2024-06-14 16:36:11] Stream DEVOPS_STREAM successfully created.
+Deployment completed.
+
+[2024-06-14 16:36:11] Folder 'pipes' does not exist. Skipping...
+[2024-06-14 16:36:11] Deploying_File_Name  "Task_MY_TASK.sql"
+Deployment completed.
+
+[2024-06-14 16:36:16] All Deployment successfully completed.

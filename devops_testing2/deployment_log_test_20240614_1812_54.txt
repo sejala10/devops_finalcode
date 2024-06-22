@@ -1,0 +1,152 @@
+[2024-06-14 18:12:56] Deployment started at 20240614_1812_54
+
+[2024-06-14 18:12:56] Folder 'warehouses' does not exist. Skipping...
+[2024-06-14 18:12:56] Deploying_File_Name  "user_SEJAL.sql"
+[2024-06-14 18:13:02] User SEJAL successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:02] Deploying_File_Name  "role_ADMIN.sql"
+[2024-06-14 18:13:06] Role ADMIN successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:06] Deploying_File_Name  "role_BUDGET_ADMIN.sql"
+[2024-06-14 18:13:11] Role BUDGET_ADMIN successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:11] Deploying_File_Name  "role_BUDGET_VIEWER.sql"
+[2024-06-14 18:13:16] Role BUDGET_VIEWER successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:16] Deploying_File_Name  "role_CHEETAH.sql"
+[2024-06-14 18:13:20] Role CHEETAH successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:20] Deploying_File_Name  "role_COST_INSIGHTS_USER.sql"
+[2024-06-14 18:13:24] Role COST_INSIGHTS_USER successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:24] Deploying_File_Name  "role_DATA_QUALITY_MONITORING_ADMIN.sql"
+[2024-06-14 18:13:28] Role DATA_QUALITY_MONITORING_ADMIN successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:28] Deploying_File_Name  "role_DATA_QUALITY_MONITORING_VIEWER.sql"
+[2024-06-14 18:13:32] Role DATA_QUALITY_MONITORING_VIEWER successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:32] Deploying_File_Name  "role_EVENTS_ADMIN.sql"
+[2024-06-14 18:13:37] Role EVENTS_ADMIN successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:37] Deploying_File_Name  "role_EVENTS_VIEWER.sql"
+[2024-06-14 18:13:41] Role EVENTS_VIEWER successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:41] Deploying_File_Name  "role_TRUST_CENTER_ADMIN.sql"
+[2024-06-14 18:13:45] Role TRUST_CENTER_ADMIN successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:45] Deploying_File_Name  "role_TRUST_CENTER_VIEWER.sql"
+[2024-06-14 18:13:49] Role TRUST_CENTER_VIEWER successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:49] Deploying_File_Name  "role_USER.sql"
+[2024-06-14 18:13:54] Role USER successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:54] Deploying_File_Name  "role_VIEWER.sql"
+[2024-06-14 18:13:57] Role VIEWER successfully created.
+Deployment completed.
+
+[2024-06-14 18:13:57] Deploying_File_Name  "database_DEVOPS_PROJECT_TEST.sql"
+[2024-06-14 18:14:01] Database DEVOPS_PROJECT_TEST successfully created.
+Deployment completed.
+
+[2024-06-14 18:14:01] Deploying_File_Name  "schema_DEVOPS_PROJECT_SCHEMA.sql"
+[2024-06-14 18:14:05] Schema DEVOPS_PROJECT_SCHEMA successfully created.
+Deployment completed.
+
+[2024-06-14 18:14:05] Deploying_File_Name  "File format_DEVOPS_FF.sql"
+[2024-06-14 18:14:09] File format DEVOPS_FF successfully created.
+Deployment completed.
+
+[2024-06-14 18:14:09] Folder 'stages' does not exist. Skipping...
+[2024-06-14 18:14:09] Deploying_File_Name  "table_APPROVER_MAIL_METADATA.sql"
+[2024-06-14 18:14:14] Table APPROVER_MAIL_METADATA successfully created.
+Deployment completed.
+
+[2024-06-14 18:14:14] Deploying_File_Name  "table_DEVOPS_TABLE.sql"
+[2024-06-14 18:14:18] Table DEVOPS_TABLE successfully created.
+Deployment completed.
+
+[2024-06-14 18:14:18] Deploying_File_Name  "table_SEQUENCE_TEST_TABLE.sql"
+[2024-06-14 18:14:22] Table SEQUENCE_TEST_TABLE successfully created.
+Deployment completed.
+
+[2024-06-14 18:14:22] Deploying_File_Name  "view_DEVOPS_VIEW.sql"
+[2024-06-14 18:14:26] 002026 (42601): SQL compilation error:
+[2024-06-14 18:14:26] Invalid column definition list
+Deployment failed.
+
+Deployment not successful.
+
+Initiating rollback...
+
+[2024-06-14 18:14:30] Deploying_Rollback_Script for "user_SEJAL.sql":
+[2024-06-14 18:14:30] SEJAL successfully dropped.
+
+[2024-06-14 18:14:34] Deploying_Rollback_Script for "role_ADMIN.sql":
+[2024-06-14 18:14:34] ADMIN successfully dropped.
+
+[2024-06-14 18:14:39] Deploying_Rollback_Script for "role_BUDGET_ADMIN.sql":
+[2024-06-14 18:14:39] BUDGET_ADMIN successfully dropped.
+
+[2024-06-14 18:14:44] Deploying_Rollback_Script for "role_BUDGET_VIEWER.sql":
+[2024-06-14 18:14:44] BUDGET_VIEWER successfully dropped.
+
+[2024-06-14 18:14:48] Deploying_Rollback_Script for "role_CHEETAH.sql":
+[2024-06-14 18:14:48] CHEETAH successfully dropped.
+
+[2024-06-14 18:14:52] Deploying_Rollback_Script for "role_COST_INSIGHTS_USER.sql":
+[2024-06-14 18:14:52] COST_INSIGHTS_USER successfully dropped.
+
+[2024-06-14 18:14:56] Deploying_Rollback_Script for "role_DATA_QUALITY_MONITORING_ADMIN.sql":
+[2024-06-14 18:14:56] DATA_QUALITY_MONITORING_ADMIN successfully dropped.
+
+[2024-06-14 18:15:00] Deploying_Rollback_Script for "role_DATA_QUALITY_MONITORING_VIEWER.sql":
+[2024-06-14 18:15:00] DATA_QUALITY_MONITORING_VIEWER successfully dropped.
+
+[2024-06-14 18:15:04] Deploying_Rollback_Script for "role_EVENTS_ADMIN.sql":
+[2024-06-14 18:15:04] EVENTS_ADMIN successfully dropped.
+
+[2024-06-14 18:15:08] Deploying_Rollback_Script for "role_EVENTS_VIEWER.sql":
+[2024-06-14 18:15:08] EVENTS_VIEWER successfully dropped.
+
+[2024-06-14 18:15:11] Deploying_Rollback_Script for "role_TRUST_CENTER_ADMIN.sql":
+[2024-06-14 18:15:11] TRUST_CENTER_ADMIN successfully dropped.
+
+[2024-06-14 18:15:15] Deploying_Rollback_Script for "role_TRUST_CENTER_VIEWER.sql":
+[2024-06-14 18:15:15] TRUST_CENTER_VIEWER successfully dropped.
+
+[2024-06-14 18:15:20] Deploying_Rollback_Script for "role_USER.sql":
+[2024-06-14 18:15:20] USER successfully dropped.
+
+[2024-06-14 18:15:23] Deploying_Rollback_Script for "role_VIEWER.sql":
+[2024-06-14 18:15:23] VIEWER successfully dropped.
+
+[2024-06-14 18:15:27] Deploying_Rollback_Script for "database_DEVOPS_PROJECT_TEST.sql":
+[2024-06-14 18:15:27] DEVOPS_PROJECT_TEST successfully dropped.
+
+[2024-06-14 18:15:31] Deploying_Rollback_Script for "schema_DEVOPS_PROJECT_SCHEMA.sql":
+[2024-06-14 18:15:31] 090105 (22000): Cannot perform DROP. This session does not have a current database. Call 'USE DATABASE', or use a qualified name.
+
+[2024-06-14 18:15:31] Rollback script not found for File format_DEVOPS_FF.sql. Manual intervention required.
+[2024-06-14 18:15:35] Deploying_Rollback_Script for "table_APPROVER_MAIL_METADATA.sql":
+[2024-06-14 18:15:35] 090105 (22000): Cannot perform DROP. This session does not have a current database. Call 'USE DATABASE', or use a qualified name.
+
+[2024-06-14 18:15:39] Deploying_Rollback_Script for "table_DEVOPS_TABLE.sql":
+[2024-06-14 18:15:39] 090105 (22000): Cannot perform DROP. This session does not have a current database. Call 'USE DATABASE', or use a qualified name.
+
+[2024-06-14 18:15:43] Deploying_Rollback_Script for "table_SEQUENCE_TEST_TABLE.sql":
+[2024-06-14 18:15:43] 090105 (22000): Cannot perform DROP. This session does not have a current database. Call 'USE DATABASE', or use a qualified name.
+
+[2024-06-14 18:15:43] Rollback completed.
